@@ -13,7 +13,7 @@ We discussed and practiced the following subjects:
   d.	Support templates (Generics)
   e.	Support inline methods
   f.	Support of unique, shared and other types of pointer management
-2.	The rule of 3
-3.	The rule of 5
-4.	Templates use guidelines
-5.	exception safety in general
+3.	The rule of 3
+4.	The rule of 5
+5.	Templates use guidelines
+6.	exception safety in general
