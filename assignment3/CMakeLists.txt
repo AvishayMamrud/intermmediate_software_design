@@ -31,6 +31,8 @@ include_directories(./include)
 set(SOURCE_FILES
     tests/main.cpp
     tests/arrayTest.cpp
+    src/ScopedArray.cpp
+    src/ArrayList.cpp
 )
 
 # Make the project root directory the working directory when we run

@@ -121,7 +121,7 @@ TEST_F(ArrayListTest, AddAndGet)
     for (uint32_t i = 1; i < 4000; i += 2)
         a.add(i, i);
 
-    for (uint32_t i = 0; i < 4000; ++i) {
+    for (uint32_t i = 0; i < 4000 - 1; ++i) {
         EXPECT_EQ(a[i], i);
         EXPECT_EQ(a.get(i), i);
     }

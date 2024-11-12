@@ -7,7 +7,9 @@ template<typename T> ScopedArray<T>::ScopedArray(T array_[]) : array(array_)
 {}
 
 template <typename T> ScopedArray<T>::~ScopedArray()
-{}
+{
+    reset();
+}
 
 template<typename T> T *ScopedArray<T>::get() const
 {
