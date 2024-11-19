@@ -31,7 +31,7 @@ include_directories(./include)
 set(SOURCE_FILES
     tests/main.cpp
     tests/arrayTest.cpp
-    src/ScopedArray.cpp
+    ../assignment4/src/ScopedArray.cpp
     src/ArrayList.cpp
 )
 

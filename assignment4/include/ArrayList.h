@@ -170,6 +170,7 @@ public:
     void swap(ArrayList<T> &src) noexcept;
 
 private:
+    void checkRange(const uint32_t& index) const;
     /**
      * Wrapper around our physical buffer.
      */

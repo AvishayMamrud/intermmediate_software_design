@@ -32,6 +32,8 @@ set(SOURCE_FILES
     tests/main.cpp
     tests/arrayTest.cpp
     tests/arrayIterTest.cpp
+    src/ArrayList.cpp
+    src/ArrayListIter.cpp
 )
 
 # Make the project root directory the working directory when we run

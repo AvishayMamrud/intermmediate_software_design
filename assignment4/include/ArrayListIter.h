@@ -2,13 +2,22 @@
 
 #ifndef ARRAYLISTITER_H
 #define ARRAYLISTITER_H
+#include <iterator>
+
+template <typename T>
+class ArrayList;
 
 /**
  * A random access iterator to the ArrayList.
  */
 template <typename T>
-class ArrayListIterator : public std::iterator<std::random_access_iterator_tag, T> {
+class ArrayListIterator{// : public std::iterator<std::random_access_iterator_tag, T> {
 public:
+ using iterator_category = std::random_access_iterator_tag;
+ using value_type = T;
+ using difference_type = ptrdiff_t;
+ using pointer = T*;
+ using reference = T&;
     /**
      * Deny access to the default constructor - don't ever need this
      */

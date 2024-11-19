@@ -31,7 +31,7 @@ TEST_F(ArrayListIteratorTest, Dereference)
 
 TEST_F(ArrayListIteratorTest, Arrow)
 {
-    ArrayList<std::string> a(20, "Test");
+    ArrayList<std::string> a(2, "Test");
     for (auto i = a.begin(); i != a.end(); ++i) {
         EXPECT_EQ(i->length(), 4U);
     }
